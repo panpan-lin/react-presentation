@@ -1,12 +1,25 @@
 [
     "index.md",
     "intro.html",
+    "jsx.html",
+    [
+        "hello-react.md",
+        "hello-react-transpiled.md"
+    ],
     [
         "components.html",
+        "components-code.md",
         "components-specs.html",
         "specs-options.html",
-        "components-lifecycle.html",
-        "specs-code.md"
+        "components-code-other-options.md",
+        "components-lifecycle.html"
     ],
+    [
+        "props.md",
+        "prop-validation.md",
+        "prop-validation-options.html"
+    ],
+    "state.html",
+    "events.html",
     "resources.html"
 ]
