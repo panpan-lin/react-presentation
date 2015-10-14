@@ -19,7 +19,11 @@
         "prop-validation.md",
         "prop-validation-options.html"
     ],
-    "state.html",
+    [
+        "state.html",
+        "state-2.md",
+        "state-3.md"
+    ],
     "events.html",
     "resources.html"
 ]
