@@ -1,0 +1,12 @@
+[
+    "index.md",
+    "intro.html",
+    [
+        "components.html",
+        "components-specs.html",
+        "specs-options.html",
+        "components-lifecycle.html",
+        "specs-code.md"
+    ],
+    "resources.html"
+]

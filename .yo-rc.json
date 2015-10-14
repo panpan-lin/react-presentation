@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "reactJS",
+    "packageVersion": "0.0.1",
+    "revealTheme": "sky",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "panpanli",
+    "githubRepository": "react-presentation"
+  }
+}
