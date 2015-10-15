@@ -1,8 +1,17 @@
 [
     "index.md",
-    "intro.html",
-    "jsx.html",
     [
+        "why-react.html",
+        "intro.html"
+    ],
+    [
+        "top-level-api.html",
+        "api-react.html",
+        "reactdom.html",
+        "reactdomserver.html"
+    ],
+    [
+        "jsx.html",
         "hello-react.md",
         "hello-react-transpiled.md"
     ],
@@ -12,7 +21,8 @@
         "components-specs.html",
         "specs-options.html",
         "components-code-other-options.md",
-        "components-lifecycle.html"
+        "components-lifecycle.html",
+        "components-are-just-like-functions.html"
     ],
     [
         "props.md",
@@ -22,8 +32,20 @@
     [
         "state.html",
         "state-2.md",
-        "state-3.md"
+        "state-3.md",
+        "state-4.html",
+        "state-5.html"
     ],
-    "events.html",
-    "resources.html"
+    [
+        "events.html",
+        "events-2.md",
+        "event-3.html",
+        "event-autobinding.html",
+        "event-delegation.html",
+        "supported-event.html"
+    ],
+    [
+        "resources.html",
+        "resources-for-jsx.html"
+    ]
 ]

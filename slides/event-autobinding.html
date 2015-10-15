@@ -1,0 +1,3 @@
+<h3>Autobinding</h3>
+
+When creating callbacks in JavaScript, you usually need to explicitly bind a method to its instance such that the value of <code>this</code> is correct. With React, every method is automatically bound to its component instance (except when using ES6 class syntax). React caches the bound method such that it's extremely CPU and memory efficient.
