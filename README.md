@@ -1,3 +1,3 @@
 # react-presentation
 
-Site: https://git.swg.usma.ibm.com/pages/panpanli/react-presentation/#/
+Site: https://panpan-lin.github.io/react-presentation/
