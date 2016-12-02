@@ -1,7 +1,8 @@
-# Generated on 2015-10-06 using generator-reveal 0.5.3
+# Generated on 2016-12-02 using generator-reveal 0.5.9
 module.exports = (grunt) ->
 
     grunt.initConfig
+        pkg: grunt.file.readJSON 'package.json'
 
         watch:
 
@@ -30,7 +31,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-
+        
         connect:
 
             livereload:
@@ -79,7 +80,7 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-
+        
         buildcontrol:
 
             options:
@@ -89,9 +90,9 @@ module.exports = (grunt) ->
                 message: 'Built from %sourceCommit% on branch %sourceBranch%'
             pages:
                 options:
-                    remote: 'git@github.com:panpan-lin/react-presentation.git'
+                    remote: '<%= pkg.repository.url %>'
                     branch: 'gh-pages'
-
+        
 
 
     # Load all grunt tasks.
@@ -133,13 +134,13 @@ module.exports = (grunt) ->
             'copy'
         ]
 
-
+    
     grunt.registerTask 'deploy',
         'Deploy to Github Pages', [
             'dist'
             'buildcontrol'
         ]
-
+    
 
     # Define default task.
     grunt.registerTask 'default', [
